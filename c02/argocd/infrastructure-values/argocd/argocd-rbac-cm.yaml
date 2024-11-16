@@ -19,4 +19,4 @@ metadata:
     app.kubernetes.io/version: v2.12.3
     helm.sh/chart: argo-cd-4.5.3
   name: argocd-rbac-cm
-  namespace: argocd-skov-run
+  namespace: argocd
