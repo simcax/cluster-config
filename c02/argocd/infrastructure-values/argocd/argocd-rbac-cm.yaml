@@ -1,0 +1,22 @@
+apiVersion: v1
+data:
+  policy.csv: |
+    g, carsten@simcax.dk, role:org-admin
+  policy.default: role:readonly
+  policy.matchMode: glob
+  scopes: '[groups]'
+kind: ConfigMap
+metadata:
+  annotations:
+    meta.helm.sh/release-name: argocd
+    meta.helm.sh/release-namespace: argocd-skov-run
+  labels:
+    app.kubernetes.io/component: server
+    app.kubernetes.io/instance: argocd
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: argocd-rbac-cm
+    app.kubernetes.io/part-of: argocd
+    app.kubernetes.io/version: v2.12.3
+    helm.sh/chart: argo-cd-4.5.3
+  name: argocd-rbac-cm
+  namespace: argocd-skov-run
