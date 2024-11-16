@@ -11,7 +11,7 @@ spec:
     targetRevision: 2.0.2
   destination:
     server: https://kubernetes.default.svc
-    namespace: nginx
+    namespace: helm-dashboard
   syncPolicy:
     syncOptions:
     - "CreateNamespace=true"
