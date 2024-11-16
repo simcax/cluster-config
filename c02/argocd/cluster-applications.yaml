@@ -7,7 +7,7 @@ spec:
   project: default
 
   source: 
-    repoURL: https://codeberg.org/simcax/c01-cluster-config.git
+    repoURL: git@github.com:simcax/cluster-config.git
     targetRevision: HEAD
     path: c02/argocd/applications
   destination:

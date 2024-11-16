@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source: 
-    repoURL: https://codeberg.org/simcax/c01-cluster-config.git
+    repoURL: git@github.com:simcax/cluster-config.git
     targetRevision: main
     path: c02/argocd/infrastructure-values/argocd
   destination:
