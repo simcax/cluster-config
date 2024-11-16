@@ -7,7 +7,7 @@ data:
     - config:
         issuer: https://accounts.google.com
         clientID: $clientid:clientid
-        clientSecret: $clientsercret:clientsecret
+        clientSecret: $clientsecret:clientsecret
       type: oidc
       id: google
       name: Google
